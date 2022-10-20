@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@codecb/prettierrc": "0.0.1",
+    "@codecb/tsconfigs": "0.0.10",
+    "@types/node": "^18.0.0",
+    "prettier": "^2.7.0",
+    "typescript": "4.8.4"
+  },
+  "prettier": "@codecb/prettierrc"
+}

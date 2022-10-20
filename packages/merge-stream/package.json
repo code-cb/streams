@@ -1,0 +1,25 @@
+{
+  "name": "@codecb/merge-stream",
+  "version": "0.0.2",
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "email": "icodemyownlife@gmail.com",
+    "name": "ICodeMyOwnLife"
+  },
+  "repository": {
+    "directory": "packages/merge-stream",
+    "type": "git",
+    "url": "https://github.com/code-cb/streams.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "exports": "./dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "format": "prettier --write '{src,test}/**/*.ts'",
+    "prepublishOnly": "yarn build",
+    "typecheck": "tsc --noEmit"
+  }
+}
