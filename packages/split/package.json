@@ -1,0 +1,27 @@
+{
+  "name": "@codecb/split",
+  "version": "0.0.1",
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "email": "icodemyownlife@gmail.com",
+    "name": "ICodeMyOwnLife"
+  },
+  "repository": {
+    "directory": "packages/split",
+    "type": "git",
+    "url": "https://github.com/code-cb/streams.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "exports": "./dist/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "format": "prettier --write '{src,test}/**/*.ts'",
+    "prepublishOnly": "yarn build",
+    "typecheck": "tsc --noEmit"
+  }
+}

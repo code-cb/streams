@@ -6,9 +6,9 @@
   "devDependencies": {
     "@codecb/prettierrc": "0.0.1",
     "@codecb/tsconfigs": "0.0.10",
-    "@types/node": "^18.0.0",
+    "@types/node": "^18.11.0",
     "prettier": "^2.7.0",
-    "typescript": "4.8.4"
+    "typescript": "^4.8.0"
   },
   "prettier": "@codecb/prettierrc"
 }
