@@ -1,6 +1,7 @@
 {
   "name": "@codecb/split",
   "version": "0.0.1",
+  "description": "A rewrite of `split2`, ported to TypeScript and ES module",
   "type": "module",
   "license": "MIT",
   "author": {
@@ -10,8 +11,9 @@
   "repository": {
     "directory": "packages/split",
     "type": "git",
-    "url": "https://github.com/code-cb/streams.git"
+    "url": "https://github.com/code-cb/streams"
   },
+  "homepage": "https://github.com/code-cb/streams/tree/main/packages/split",
   "files": [
     "dist"
   ],

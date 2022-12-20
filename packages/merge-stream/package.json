@@ -1,6 +1,7 @@
 {
   "name": "@codecb/merge-stream",
   "version": "0.0.2",
+  "description": "A rewrite of `merge-stream`, ported to TypeScript and ES module",
   "type": "module",
   "license": "MIT",
   "author": {
@@ -10,8 +11,9 @@
   "repository": {
     "directory": "packages/merge-stream",
     "type": "git",
-    "url": "https://github.com/code-cb/streams.git"
+    "url": "https://github.com/code-cb/streams"
   },
+  "homepage": "https://github.com/code-cb/streams/tree/main/packages/merge-stream",
   "files": [
     "dist"
   ],
