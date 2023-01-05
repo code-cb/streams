@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/code-cb/streams/tree/main/packages/merge-stream",
   "files": [
-    "dist"
+    "./dist"
   ],
   "exports": "./dist/index.js",
   "scripts": {

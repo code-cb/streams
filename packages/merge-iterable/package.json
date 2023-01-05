@@ -1,0 +1,29 @@
+{
+  "name": "@codecb/merge-iterable",
+  "version": "0.0.1",
+  "description": "A collection of Iterable classes/utilities that handle complex stream merging operations",
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "email": "icodemyownlife@gmail.com",
+    "name": "ICodeMyOwnLife"
+  },
+  "repository": {
+    "directory": "packages/merge-iterable",
+    "type": "git",
+    "url": "https://github.com/code-cb/streams"
+  },
+  "homepage": "https://github.com/code-cb/streams/tree/main/packages/merge-iterable",
+  "files": [
+    "./dist"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && rollup -c rollup.config.ts --configPlugin rollup-plugin-ts",
+    "format": "prettier --write '{src,test}/**/*.ts'",
+    "prepublishOnly": "yarn build",
+    "typecheck": "tsc --noEmit"
+  }
+}
